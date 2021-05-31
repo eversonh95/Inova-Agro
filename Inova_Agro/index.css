@@ -1,0 +1,166 @@
+body{
+    background-image: url('bg.jpeg');
+    font-family: 'Late', Arial, sans-serif;/*Estilo da fonte*/
+    text-align: center;
+}
+
+header{
+    font-size: 30pt;
+    color:white;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px;
+}
+
+/*Estilo do menu de navegação*/
+.header {
+    top: 0px;/*Deixa o elemento no topo*/
+    border-radius: 20px;/*Curva da borda*/
+    border-style: solid;/*Estilo da borda*/
+    border-width: 1px;/*Tamanho da borda*/
+    border-color: white;
+    position: relative;/*Posição do objeto*/
+    padding: 10px;
+    background-color:rgba(50, 177, 71, 0.603);
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.logo{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color:rgba(50, 177, 71);
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px;
+    font-family: 'Late', Arial, sans-serif;/*Estilo da fonte*/
+    text-indent: 20px;
+    color: white;
+}
+
+.texto{
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 30px;
+    background-color:rgba(50, 177, 71);
+    color: white;
+}
+
+.texto h2{
+    text-align: center;/*Alinha o texto para o centro*/
+}
+
+.texto p{
+    text-indent: 40px;/*Espaço para o inicio do texto/*/
+    text-align: justify;
+}
+
+h1{
+    text-align: center;/*Alinha o texto para o centro*/
+    text-transform: uppercase;/*Deixa todos as letras maiusculas*/
+    font-size: 35pt;/*Tamanho da fonte*/
+    font-family: 'Late', Arial, sans-serif;/*Estilo da fonte*/
+    color:white;
+}
+
+/*Esses comandos alteram os cabeçalhos do tipo h2*/
+h2{
+    border-style: solid;/*Estilo da borda*/
+    border-width: 1px;/*Altera o tamanho da borda*/
+    border-radius: 20px;/*Curva da borda*/
+    margin-left: 30%;/*Espaço da margem do lado direito*/
+    margin-right: 30%;/*Espaço da margem do lado direito*/
+    color: white;
+    background-color:rgba(50, 177, 71, 0.603);
+    box-shadow: 0px 0px 5px 0px;
+}
+
+/*Esses comandos alterão a divisão da tela*/ 
+div{
+    text-align: center;/*Alinha o texto para o centro da tela*/   
+}
+
+
+/*Esses comandos irão alterar a barra para escrever os dados*/
+input{
+    width: 40%;/*Largura*/
+    height: 5%;/*Altura*/
+    border: 1px;/*Borda*/
+    border-radius: 20px;/*Curva da borda*/
+    padding: 10px;/*Espaçamento*/
+}
+
+/*Esses comandos irão alterar o barra de seleção*/
+select{
+    width: 42%;/*Largura*/
+    height: 5%;/*Altura*/
+    border: 1px;/*Borda*/
+    border-radius: 20px;/*Curva da borda*/
+    padding: 10px;/*Espaçamento*/
+}
+
+button{
+    width: 110px;/*Largura*/
+    height: 50px;/*Altura*/
+    color: white;
+    border: solid 1px;/*Borda*/
+    border-radius: 20px;/*Curva da borda*/
+    border-color: rgba(255, 255, 255, 0.075);/*Cor da borda do botão*/
+    padding: 15px;/*Espaçamento*/
+    background-color: rgba(50, 177, 71);/*Cor de fundo do botão*/
+    box-shadow:  0px 6px 0px rgb(27, 117, 42);/*Cor da sombra botão*/
+    transition: background-color 1s;/*Faz a transição de 1 segundo quando o mouse estiver em cima*/
+    margin: 10px;/*Margem ou espaçãmento entre itens*/
+    text-decoration: none;/*Tira as decorações de texto como sublinhado*/
+}
+
+/*Esses comandos alteram os botões quando o mouse estiver em cima dele*/
+button:hover{
+    width: 110px;/*Largura*/
+    height: 50px;/*Altura*/
+    border: solid 1px;/*Borda*/
+    border-radius: 20px;/*Curva da borda*/
+    padding: 15px;/*Espaçamento*/
+    background-color: rgb(16, 77, 26);/*Cor de quando o mouse estiver em cima do botão*/
+    cursor: pointer;/*O Mouse vira uma mão quando esta em cima do botão*/
+}
+
+/*Esses comandos alteram os botões quando ele for clicado*/
+button:active{
+    position: relative;/*A posição do elemento pode mudar*/
+    top: 5px;
+    box-shadow: none;/*Sem sombra*/
+}
+
+table, th, td{
+   text-align: center;
+   width: 70%;
+   border: 1px solid black;
+   border-collapse: collapse;
+   border-radius: 15px;
+   color:black;
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+}
+
+caption{
+   border: 1px solid black;
+   border-collapse: collapse;
+   border-radius: 15px;
+   background-color: rgb(255, 255, 255);
+   padding: 15px;
+}
+
+img{
+    width: 600px;
+    height: 300px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
