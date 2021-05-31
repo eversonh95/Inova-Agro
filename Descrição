@@ -1,7 +1,7 @@
 # Inova-Agro
-Trabalho feito por mim na disciplina Desenvolvimento Web.
+Trabalho feito por mim e meus colegas na disciplina Desenvolvimento Web.
 
 As linguagens de programação utilizadas são PHP, MySQL, HTML5 e CSS3.
 
-Os site é ficitio, ele é um site que fala sobre uma empresa que vende produtos naturais/Agro negocio e fala sobres os objetivos da empresa.
+O site é ficticio, ele é um site que fala sobre uma empresa que vende produtos naturais/Agro negocio e fala sobres os objetivos da empresa.
 Além mostrar preços, ele também é um CRUD dinamico com um visual diferenciado.
